@@ -11,7 +11,7 @@ const redBright = chalk.redBright;
 const yellowBright = chalk.yellowBright;
 
 async function doStuff() {
-  const text = await figlet.text("TWO SUM CLI");
+  const text = await figlet.text("TWO-SUM-CLI");
   console.log(blueBright(text));
 }
 
@@ -48,7 +48,7 @@ async function start() {
   const { num1, num2 } = args;
 
   if (isNaN(num1) || isNaN(num2)) {
-    log(redBright("Please provide two numbers as arguments."));
+    log(redBright("Input cancelled. Exiting..."));
     process.exit(1);
   }
 
