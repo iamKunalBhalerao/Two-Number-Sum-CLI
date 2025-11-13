@@ -1,0 +1,32 @@
+{
+  "name": "two-num-sum-cli-tool",
+  "version": "1.0.0",
+  "description": "Sum of Two Number CLI Tool",
+  "keywords": [
+    "CLI-Tool",
+    "TWO-NUM-SUM"
+  ],
+  "homepage": "https://github.com/iamKunalBhalerao/Two-Number-Sum-CLI#readme",
+  "bugs": {
+    "url": "https://github.com/iamKunalBhalerao/Two-Number-Sum-CLI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamKunalBhalerao/Two-Number-Sum-CLI.git"
+  },
+  "bin": {
+    "twosum": "app.js"
+  },
+  "license": "ISC",
+  "author": "Kunal Bhalerao",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "figlet": "^1.9.3",
+    "prompts": "^2.4.2"
+  }
+}
