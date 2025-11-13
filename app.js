@@ -1,6 +1,7 @@
 import chalk from "chalk";
 import figlet from "figlet";
 import prompts from "prompts";
+import  { instagram, pastel } from "gradient-string"
 
 const log = console.log;
 
@@ -12,13 +13,13 @@ const yellowBright = chalk.yellowBright;
 
 async function doStuff() {
   const text = await figlet.text("TWO-SUM-CLI");
-  console.log(blueBright(text));
+  console.log(instagram(text));
 }
 
 async function start() {
   await doStuff();
 
-  log(blue("Welcome to the Two No. Sum Calculator!"));
+  log(pastel("Welcome to the Two No. Sum Calculator!"));
 
   const question = [
     {
